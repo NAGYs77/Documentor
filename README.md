@@ -1,5 +1,12 @@
 # Documentor
 
+## Auteurs
+
+- NAGY Sallah Hassad, Master 1 GL
+- RANANTENAINA Stephan, Master 1 GL
+
+Projet réalisé dans le cadre du cours de Génie Logiciel (Master 1), avec le Pr Stéphane Ducasse.
+
 Outil qui produit un rapport Microdown sur une classe Pharo (via `MicMicrodownTextualBuilder`).
 
 ## Chargement
