@@ -71,7 +71,7 @@ DocumentorMethodVisitor >> visitSelfNode: aNode [
 { #category : 'visiting' }
 DocumentorMethodVisitor >> visitVariableNode: aNode [
 
-	aNode isSelf ifTrue: [ usesSelf := true ].
+	aNode name = 'self' ifTrue: [ usesSelf := true ].
 	(instVarNames includes: aNode name) ifTrue: [ usesInstanceVariable := true ].
 	^ super visitVariableNode: aNode
 ]

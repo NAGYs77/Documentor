@@ -59,7 +59,7 @@ DocumentorMetrics >> numberOfInheritedMethods [
 DocumentorMetrics >> numberOfMethodsCallingSuper [
 
 	^ targetClass localMethods count: [ :method |
-		  method ast sendNodes anySatisfy: [ :send | send receiver isSuper ] ]
+		  method ast sendNodes anySatisfy: [ :send | send receiver isVariable and: [ send receiver name = 'super' ] ] ]
 ]
 
 { #category : 'metrics' }
