@@ -35,3 +35,7 @@ Le rapport contient : nom, heritage, champs, package, premier paragraphe du comm
 ## Tests
 
 Lancer les tests du package `Documentor-Tests` avec le Test Runner.
+
+## Compatibilité
+
+Testé avec Pharo 13 (21 tests verts).
